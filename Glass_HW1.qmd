@@ -1,0 +1,53 @@
+---
+title: "Beginning Data Science"
+author: "Jarrett Glass"
+format: html
+editor: visual
+---
+
+## 1. What do you think being a data scientist is about?
+
+Being a Data Scientist is about taking information - data, of course - and finding ways to record, clean, and manipulate it in order to extrapolate other useable details. 
+
+## 2. What differences/similarities do you see between data scientists and statisticians?
+
+I see some similarities where:
+
+* Both can work with either supervised or unsupervised data.
+
+* Both may generate models to describe a current (or past) event, and use said model to try to determine what may happen in the future.
+
+Some differences may be that
+
+* Statisticians would need data to be cleaned, while data scientists may perform work even on uncleaned (dirty?) data.
+
+* Statisticians would also more be more likely to use smaller datasets, while data scientists may turn to larger, broader data sets.
+
+## 3. How do you view yourself in relation to these two areas?
+
+I have been studying statistics for several years now, but foresee my career taking me more into the "data scientist" realm. I am considering a foray into biostatistics, and from there, possibly into a bioinformaticist role (or a blend of bioinformatics and data science).
+
+---
+
+Next, there will be some code performed on a component of the `iris` dataset.
+
+```{r}
+y <- density(iris$Petal.Width)
+
+# The Class of the object 'y'
+class(y)
+# The Type of the object 'y'
+typeof(y)
+# The structure of the object 'y'
+str(y)
+```
+
+Next, I will write another R code chunk, to use the `plot` function on `y`. The code will be hidden by setting `#| echo: false` inside the code block.
+
+```{r}
+#| echo: false
+
+plot(y)
+```
+
+Thus concludes the requirements of this document for the assignment!

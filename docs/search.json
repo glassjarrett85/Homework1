@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "Glass_HW1.html",
+    "href": "Glass_HW1.html",
+    "title": "Beginning Data Science",
+    "section": "",
+    "text": "Being a Data Scientist is about taking information - data, of course - and finding ways to record, clean, and manipulate it in order to extrapolate other useable details."
+  },
+  {
+    "objectID": "Glass_HW1.html#what-do-you-think-being-a-data-scientist-is-about",
+    "href": "Glass_HW1.html#what-do-you-think-being-a-data-scientist-is-about",
+    "title": "Beginning Data Science",
+    "section": "",
+    "text": "Being a Data Scientist is about taking information - data, of course - and finding ways to record, clean, and manipulate it in order to extrapolate other useable details."
+  },
+  {
+    "objectID": "Glass_HW1.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "href": "Glass_HW1.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "title": "Beginning Data Science",
+    "section": "2. What differences/similarities do you see between data scientists and statisticians?",
+    "text": "2. What differences/similarities do you see between data scientists and statisticians?\nI see some similarities where:\n\nBoth can work with either supervised or unsupervised data.\nBoth may generate models to describe a current (or past) event, and use said model to try to determine what may happen in the future.\n\nSome differences may be that\n\nStatisticians would need data to be cleaned, while data scientists may perform work even on uncleaned (dirty?) data.\nStatisticians would also more be more likely to use smaller datasets, while data scientists may turn to larger, broader data sets."
+  },
+  {
+    "objectID": "Glass_HW1.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "href": "Glass_HW1.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "title": "Beginning Data Science",
+    "section": "3. How do you view yourself in relation to these two areas?",
+    "text": "3. How do you view yourself in relation to these two areas?\nI have been studying statistics for several years now, but foresee my career taking me more into the “data scientist” realm. I am considering a foray into biostatistics, and from there, possibly into a bioinformaticist role (or a blend of bioinformatics and data science).\n\nNext, there will be some code performed on a component of the iris dataset.\n\ny &lt;- density(iris$Petal.Width)\n\n# The Class of the object 'y'\nclass(y)\n\n[1] \"density\"\n\n# The Type of the object 'y'\ntypeof(y)\n\n[1] \"list\"\n\n# The structure of the object 'y'\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nNext, I will write another R code chunk, to use the plot function on y. The code will be hidden by setting #| echo: false inside the code block.\n\n\n\n\n\n\n\n\n\nThus concludes the requirements of this document for the assignment!"
+  }
+]
